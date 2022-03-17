@@ -43,19 +43,58 @@ body > img {
 img {
   max-height: 250px;
 }
-/* #res {
-  display: flex;
-} */
+
 #res img {
   margin-left: 20px;
   padding: 10px;
-
+  cursor: pointer;
   height: 250px;
   width: 250px;
 }
+#inputs {
+  display: block;
+  margin: 0 auto;
+  padding: 10px 15px;
+}
+#button1 {
+  border: 0;
+  color: #ffffff;
+  background: #da1e26;
+  font-weight: bold;
+  padding: 15px 20px;
+  font-size: 16px;
+  border-radius: 4px;
+  margin-top: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
 
-/* .itens {
+button {
   display: flex;
-  align-items: center;
-  flex-direction: column;
-} */
+  border: 0;
+  color: #ffffff;
+  background: #da1e26;
+  font-weight: bold;
+  padding: 15px 300px;
+  font-size: 16px;
+  border-radius: 4px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+button:hover {
+  opacity: 0.8;
+}
+#button1:hover {
+  opacity: 0.8;
+}
+#frame {
+  height: 400px;
+  width: 500px;
+}
+.filmeOuSerie {
+  margin: 5px;
+  height: 15px;
+  width: 500px;
+}
