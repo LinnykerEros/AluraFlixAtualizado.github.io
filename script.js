@@ -50,10 +50,7 @@ function adicionar(i) {
     capa.value.endsWith(".png") == false
   ) {
     alert("[ERROR] Insira o endereço da capa, CORRETO!");
-    // } else if (capa.value.includes(capaFilmesImagens)) {
-    //   alert("URL JA ADICIONADA");
   } else {
-    //ADICIONANDO NO VETOR "capaFILMES" e "VIDEOS"
     capa.value = "";
     linkVideo.value = "";
     capaFilmes.push(novaCapa);
