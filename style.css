@@ -44,7 +44,7 @@ img {
   max-height: 250px;
 }
 
-#res img {
+#containerImg img {
   margin-left: 20px;
   padding: 10px;
   cursor: pointer;
